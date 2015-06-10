@@ -2,14 +2,14 @@ from setuptools import setup
 import os
 import os.path
 
-progName = 'drawabletosser'
-progVersion = '0.0.1'
+progName = 'andross'
+progVersion = '0.1.0'
 progDescription = 'A tool for moving drawable resources into the correct directories for an Android application'
 progAuthor = 'Scott Johnson'
 progEmail = 'jaywir3@gmail.com'
-progUrl = 'http://github.com/jwir3/drawabletosser'
+progUrl = 'http://github.com/jwir3/andross'
 entryPoints = {
-  'console_scripts': [ 'toss = drawabletosser.drawabletosser:main' ]
+  'console_scripts': [ 'andross = andross.console:main' ]
 }
 
 requirements = [
@@ -23,7 +23,7 @@ setup(name=progName,
       author=progAuthor,
       author_email=progEmail,
       url=progUrl,
-      packages=['drawabletosser'],
+      packages=['andross'],
       entry_points=entryPoints,
     #   test_suite='tests',
       license='Mozilla Public License v2.0',

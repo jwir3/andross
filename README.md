@@ -1,7 +1,7 @@
 Andross
 =============
 
-__andross__ (n.) : From __An__droid __Dr__awable T__oss__er. A tool used for moving entire hierarchies of drawable resources into an Android resource file.
+__andross__ (n.) : From **An**droid **Dr**awable T**oss**er. A tool used for moving entire hierarchies of drawable resources into an Android resource file.
 
 This utility is designed to preserve the hirearchy of drawable folders of a specific resolution, while copying files into your android project directory.
 

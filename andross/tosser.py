@@ -68,7 +68,7 @@ class Tosser:
                 continue
 
             if 'AndroidManifest.xml' in files:
-                # Our resource folder should be one level up, in res/
-                return os.path.abspath(os.path.join(root, '../res'))
+                # Our resource folder should be in this directory, in res/
+                return os.path.abspath(os.path.join(root, './res'))
 
         return None
